@@ -8,7 +8,11 @@ class MyBot extends ActivityHandler {
         super();
         // See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.
         this.onMessage(async (context, next) => {
-            await context.sendActivity(`You said '${ context.activity.text }'`);
+            let result = argumentAnalyser.analyse(context.activity.text, terfConfig);
+
+            if (result.respond) {
+                await context.sendActivity(argumentAnalyser.construct(result));
+            }
             // By calling next() you ensure that the next BotHandler is run.
             await next();
         });
