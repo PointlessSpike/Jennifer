@@ -1,0 +1,18 @@
+{
+    "name": "Jennifer",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "4a741d70-75a8-11e9-b7d2-810f1650c9f0",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\PointlessSpike\\Source\\Bots\\jennifer\\Jennifer.bot"
+}
