@@ -2,6 +2,8 @@
 // Licensed under the MIT License.
 
 const { ActivityHandler } = require('botbuilder');
+const argumentAnalyser = require('./argument-analyser');
+const terfConfig = require('./terf-config');
 
 class MyBot extends ActivityHandler {
     constructor() {
