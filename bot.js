@@ -3,11 +3,15 @@
 
 const { ActivityHandler } = require('botbuilder');
 const argumentAnalyser = require('./argument-analyser');
-const terfConfig = require('./terf-config');
+const terfConfig = require('./config/terf-config');
 
 class MyBot extends ActivityHandler {
     constructor() {
         super();
+
+        //Log in to Twitter
+
+
         // See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.
         this.onMessage(async (context, next) => {
             let result = argumentAnalyser.analyse(context.activity.text, terfConfig);

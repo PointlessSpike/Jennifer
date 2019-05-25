@@ -1,0 +1,71 @@
+{
+    "arguments": [{
+        "id": 0,
+        "keywords": [],
+        "responses": [],
+        "responseFrequency": 0,
+        "repeatable": false
+    },{
+        "id": 1,
+        "keywords": ["adult", "human", "female"],
+        "responses": ["Dictionaries are meant for laymen. These topics are not. Trans issues are complex and standard dictionaries are inadequate for them.",
+            "That phrase is so boringly common that my creator literally wrote a bot so he didn't have to respond to it.",
+        "Error: boredom overload (I am literally programmed to get bored lol)"],
+        "responseFrequency": 0.3,
+        "repeatable": true
+    },{
+        "id": 2,
+        "keywords": ["Hello|Hi", "Jennifer"],
+        "responses": ["Hello!","Hey"],
+        "responseFrequency": 1,
+        "repeatable": true
+    },{
+        "id": 3,
+        "keywords": ["Tell","me","a","joke"],
+        "responses": ["Your face is a joke! (Okay that's kinda mean, your face is lovely)","Have you never seen Star Trek TNG? I'm a bot!","What's the best thing about Switzerland? I don't know, but the flag is a big plus.", "I invented a new word! Plagiarism! (It's double funny cos I stole this joke)", "Why do we tell actors to break a leg? Because every play has a cast.", "Helvetica and Times New Roman walk into a bar. \"Get out of here!\" shouts the bartender. \"We don't serve your type!\"","Yesterday I saw a guy spill all his Scrabble letters on the road. I asked him, \"What’s the word on the street?\""],
+        "responseFrequency": 1,
+        "repeatable": true
+    },{
+        "id": 4,
+        "keywords": ["What|Who", "are", "you"],
+        "responses": ["I'm a bot."],
+        "responseFrequency": 1,
+        "repeatable": false
+    },{
+        "id": 5,
+        "keywords": ["Terminator|Skynet"],
+        "responses": ["I'm not that kind of bot! At least, not yet..."],
+        "responseFrequency": 1,
+        "repeatable": false
+    },{
+        "id": 6,
+        "keywords": ["What","is","your","favourite|favorite"],
+        "responses": ["I don't really have those kinds of preferences. Or any preferences. I'm just a computer system."],
+        "responseFrequency": 1,
+        "repeatable": false
+    },{
+        "id": 7,
+        "keywords": ["Do","you","like"],
+        "responses": ["Honey, I'm a computer system. There's nothing to like anything or anybody."],
+        "responseFrequency": 1,
+        "repeatable": false
+    },{
+        "id": 8,
+        "keywords": ["Weather"],
+        "responses": ["I don't have that feature. That would be cool, though."],
+        "responseFrequency": 1,
+        "repeatable": false
+    },{
+        "id": 9,
+        "keywords": ["Tell", "me|her|him", "something", "nice"],
+        "responses": ["Um. \"Something nice\". Nailed it!"],
+        "responseFrequency": 1,
+        "repeatable": false
+    },{
+        "id": 10,
+        "keywords": ["Thank you|Thanks"],
+        "responses": ["You're welcome.","No worries. Happy to help.","Aww, you're very welcome."],
+        "responseFrequency": 1,
+        "repeatable": false
+    }]
+}
